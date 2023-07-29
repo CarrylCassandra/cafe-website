@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafe Website</title>
+
+        <link href="images/coffee-cup.png" rel="icon">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,600&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <!--HEADER SECTION STARTS-->
+        <header>
+            <div class="logo">
+                <img src="images/logo1.png" width="125px">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <a href="#home">Home</a>
+                    <a href="#popular">Our Product</a>
+                    <a href="#delivery">Delivery</a>
+                    <a href="#about">About Us</a>
+                    <a href="#orderHere">Menu</a>
+                    <a href="#owners">Owners</a>
+                    <a href="#inquiries">Contact Us</a>
+                    <!--<a href ="#inquiries">Inquiries</a>-->
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER SECTION ENDS -->
+
+        <!-- HOME SECTION STARTS-->
+        <section class="home" id="home">
+            <div class="content">
+                <h1>Brewing <span>coffee</span> with<br>an artistic touch</h1>
+                <p>Elevate your efficiency and enhance your <br>state of mind by starting your day with a <br>refreshing
+                    cup of coffee.</p>
+                <a href="#" class="btn">Order Now</a>
+                <a href="#" class="btn-1">More menu</a>
+            </div>
+
+            <div class="image">
+                <img src="images/main.png" alt="">
+            </div>
+        </section>
+        <!--    HOME SECTION ENDS   -->
+
+ <!--    POPULAR SECTION STARTS   -->
+<section class="popular" id="popular">
+    <h1 class="heading">Popular <u>Now</u></h1>
+    <div class="popular-container">
+        <div class="container-box">
+            <div class="box">
+                <div class="box-vid">
+                    <img src="images/popular1.png" class="popular-photo" alt="Popular Photo 1">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-vid">
+                    <img src="images/popular2.gif" class="popular-photo" alt="Popular Photo 3">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-vid">
+                    <img src="images/popular3.png" class="popular-photo" alt="Popular Photo 3">
+                </div>
+            </div>
+        </div>
+
+
+<!-- VIDEOS SECTION-->
+        <div class="container-box">
+            <!-- Add three more boxes here for the lower row -->
+            <div class="box">
+                <div class="box-vid">
+                     <video class="popular-video" controls muted loop>
+                        <source src="videos/vid2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-vid">
+                    <video class="popular-video" controls muted loop>
+                        <source src="videos/vid1.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-vid">
+                    <video class="popular-video" controls muted loop>
+                        <source src="videos/vid3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    POPULAR SECTION ENDS   -->
+
+
+<!--   DELIVERY SECTION STARTS -->
+<section class="delivery" id="delivery">
+    <h1 class="heading">How to use delivery <u>service</u></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/chooseyourcoffee.png">
+            <h4>Choose your coffee</h4>
+            <p>There are 20+ coffees for you</p>
+        </div>
+        <div class="box">
+            <img src="images/food-truck.png">
+            <h4>We deliver it to you</h4>
+            <p>Choose delivery service</p>
+        </div>
+        <div class="box">
+            <img src="images/coffee-cup.png">
+            <h4>Enjoy your coffee</h4>
+            <p>Choose delivery service</p>
+        </div>
+    </div>
+    <div class="delivery-form">
+        <h1>We are on the way<span> for you!</span>Send us the details!</h1>
+        <div class="form">
+            <form action="#">
+                <div class="form-first">
+                    <div class="personal-details">
+                        <div class="fields-1">
+                            <div class="input-field">
+                                <input type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" placeholder="Address" required>
+                            </div>
+                        </div>
+                        <div class="fields-2">
+                            <div class="input-field">
+                                <textarea name="message" rows="5" placeholder=" Your order message"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <h2>Choose your drink.</h2>
+                        <div class="fields-3">
+                            <div class="select-box">
+                                <select name="" id="choose-option">
+                                    <option value="platform">Please choose an option</option>
+                                    <option value="social-media">Strawberry Frappucino</option>
+                                    <option value="advertisement">Mocha Frappucino</option>
+                                    <option value="website/blog">Vanilla Frappucino</option>
+                                    <option value="friends">Cafe Americano</option>
+                                    <option value="others">Cafe Latte</option>
+                                    <option value="others">Matcha Latte</option>
+                                </select>
+                            </div>
+                            <input type="submit" name="submit" class="submit-btn" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="audio-container">
+        <div class="audio-left">
+            <audio controls autoplay>
+                <source src="morning-coffee.mp3" loop>
+            </audio>
+        </div>
+        <div class="audio-right">
+            <audio controls autoplay>
+                <source src="morning-coffee.mp3" loop>
+            </audio>
+        </div>
+    </div>
+</section>
+
+<!--   DELIVERY SECTION ENDS -->
+
+
+
+        <!--    ABOUT US SECTION STARTS   -->
+        <section class="about" id="about">
+            <div class="image">
+                <img src="images/one.png" alt="">
+            </div>
+            <div class="content-1">
+                <h1>About <u>us</u></h1>
+                <h2>We provide quality coffee, and ready to deliver.</h2>
+                <p>We are a company that makes and distributes<br>delicious drinks. Our main product is made with a
+                    <br>secret recipe and available in stores worldwide.
+                </p>
+                <a href="#" class="btn-2">Get your coffee</a>
+            </div>
+        </section>
+        <!--    ABOUT US SECTION ENDS   -->
+
+
+        <!--    ORDER HERE SECTION STARTS   -->
+        <section class="orderHere order-container orders-section" id="orderHere">
+            <h1 class="heading">Order <u>Here</u></h1>
+
+            <div class="order-container">
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/mocha-frapp.png" alt="">
+                    </div>
+
+                    <div class="price">
+                        <span style="font-size: 23px;">₱180</span>
+                    </div>
+
+                    <h2>Mocha Frappucino</h2>
+                    <p>Mocha sauce blended with coffee, <br>milk, ice, and then topped with <br>whipped cream</p>
+
+                    <!-- MGA ANO PAGPIPILIAN -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="size">
+                                <h2>Size</h2>
+                                <input type="radio" id="medium" name="size" value="medium">
+                                <label for="medium"> Medium</label>
+                                <input type="radio" id="large" name="size" value="large">
+                                <label for="large"> Large</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="milk">
+                                <h2>Milk</h2>
+                                <input type="checkbox" id="soy" name="milk" value="soy">
+                                <label for="soy"> Soy Milk</label>
+                                <input type="checkbox" id="whole" name="milk" value="whole">
+                                <label for="whole"> Whole Milk</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="h">
+                    <a href="#" class="btn-3">Add to basket</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/strawberry-frappucino.png" alt="">
+                    </div>
+
+                    <div class="price">
+                        <span style="font-size: 23px;">₱200</span>
+                    </div>
+
+                    <h2>Strawberry Frappucino</h2>
+                    <p>Sip on the cream of the crop <br> with a blend of strawberries, <br> milk, and ice.</p>
+
+                    <!-- MGA ANO PAGPIPILIAN -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="size">
+                                <h2>Size</h2>
+                                <input type="radio" id="medium" name="size" value="medium">
+                                <label for="medium"> Medium</label>
+                                <input type="radio" id="large" name="size" value="large">
+                                <label for="large"> Large</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="milk">
+                                <h2>Milk</h2>
+                                <input type="checkbox" id="soy" name="milk" value="soy">
+                                <label for="soy"> Soy Milk</label>
+                                <input type="checkbox" id="whole" name="milk" value="whole">
+                                <label for="whole"> Whole Milk</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="h">
+                    <a href="#" class="btn-3">Add to basket</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/vanilla-frapp.png" alt="">
+                    </div>
+
+                    <div class="price">
+                        <span style="font-size: 23px;">₱180</span>
+                    </div>
+
+                    <h2>Vanilla Frappucino</h2>
+                    <p>Creamy blend of vanilla bean, milk, <br> and ice takes va-va-vanilla flavor to <br> another
+                        level.</p>
+
+                    <!-- MGA ANO PAGPIPILIAN -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="size">
+                                <h2>Size</h2>
+                                <input type="radio" id="medium" name="size" value="medium">
+                                <label for="medium"> Medium</label>
+                                <input type="radio" id="large" name="size" value="large">
+                                <label for="large"> Large</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="milk">
+                                <h2>Milk</h2>
+                                <input type="checkbox" id="soy" name="milk" value="soy">
+                                <label for="soy"> Soy Milk</label>
+                                <input type="checkbox" id="whole" name="milk" value="whole">
+                                <label for="whole"> Whole Milk</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="h">
+                    <a href="#" class="btn-3">Add to basket</a>
+                </div>
+            </div>
+        </section>
+        <!--    ORDER HERE SECTION ENDS   -->
+
+
+        <!--    OWNERS SECTION STARTS   -->
+        <section class="owners" id="owners">
+            <div class="owners-container">
+                <div class="owners-info">
+                    <h1>Owners</h1>
+                    <p>Cafe owners are passionate<br> entrepreneurs dedicated to crafting<br> exceptional experiences
+                        through their<br> establishments.</p>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <a href="#">
+                            <img src="images/pearl.png">
+                        </a>
+                        <h2>Pearl</h2>
+                        <p>I love aromatic escapes<br> and caffeinated delights.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <a href="#">
+                            <img src="images/carryl.png">
+                        </a>
+                        <h2>Carryl</h2>
+                        <p>I love aromatic escapes<br> and caffeinated delights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--    OWNERS SECTION ENDS   -->
+
+
+        <!--    INQUIRIES SECTION STARTS   -->
+        <section class="inquiries" id="inquiries">
+            <div class="img-audio">
+                <div class="audio">
+                    <audio controls autoplay>
+                        <source src="morning-coffee.mp3" loop>
+                    </audio>
+                </div>
+                <div class="image">
+                    <img src="images/image2.png" alt="">
+                </div>
+            </div>
+            <div class="container-1">
+                <h1>Have more <span>inquiries</span>? Reach us out!</h1>
+                <div class="form">
+                    <form action="#">
+                        <div class="form-first">
+                            <div class="personal-details">
+                                <div class="fields-1">
+                                    <div class="input-field">
+                                        <input type="text" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" placeholder="Email Address" required>
+                                    </div>
+                                </div>
+                                <div class="fields-2">
+                                    <div class="input-field">
+                                        <textarea name="message" rows="5" placeholder=" Your message"
+                                            required></textarea>
+                                    </div>
+                                </div>
+                                <h2>Where did you hear about us?</h2>
+                                <div class="fields-3">
+                                    <div class="select-box">
+                                        <select name="" id="choose-option">
+                                            <option value="platform">Please choose an option</option>
+                                            <option value="social-media">Social Media</option>
+                                            <option value="advertisement">Advertisement</option>
+                                            <option value="website/blog">Website/Blog</option>
+                                            <option value="friends">Friends</option>
+                                            <option value="others">Others</option>
+                                        </select>
+                                    </div>
+                                    <input type="submit" name="submit" class="submit-btn" value="Submit">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--    INQUIRIES SECTION ENDS   -->
+
+        <!--    FOOTER STARTS   -->
+        <footer>
+            <div class="container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>We are a company that makes and distributes
+                        delicious drinks. Our main product is made with a
+                        secret recipe and available in stores worldwide.</p>
+                    <ul class="social">
+                        <li><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <p>Thank you for visiting our website! Click the links above to find us.</p>
+                </div>
+                <div class="support">
+                    <h2>Support</h2>
+                    <ul class="info-2">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#popular">Our Products</a></li>
+                        <li><a href="#delivery">Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="contactus">
+                    <h2>Contact Us</h2>
+                    <ul class="info">
+                        <li><a href="#">+639275441558</a></li>
+                        <li><a href="#">+639203692453</a></li>
+                        <li><a href="#">pearl.abadilla@gmail.com</a></li>
+                        <li><a href="#">cassandracarryl@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p> ©Artisan Coffee and Co. All rights reserved.</p>
+        </div>
+        <!--    FOOTER ENDS   -->
+    </body>
+
+
+ 
+<!-- JavaScript code -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const videos = document.querySelectorAll(".popular-video");
+  
+      videos.forEach((video) => {
+        video.addEventListener("mouseenter", () => {
+          video.play();
+          video.muted = false;
+        });
+  
+        video.addEventListener("mouseleave", () => {
+          video.pause();
+          video.currentTime = 0;
+          video.muted = true;
+        });
+      });
+    });
+  </script>
+  
+
+
+</html>
